@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+    height: 100vh;
+    background-color: white;
+    transition: all 0.4s linear;
+}
+.edit-body{
+    background-color: black;
+}
+
+
+.slider {
+    position: absolute;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.circle {
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    top: 3px;
+    left: 4px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    transition: all 0.4s linear;
+}
+.editCircle{
+    left: 43px;
+    background-color: black;
+}
